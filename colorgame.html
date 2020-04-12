@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Emily Cassandra's Color Guessing Game</title>
+	<link rel="stylesheet" href="altstylePhone.css">
+	<link rel="stylesheet" href="altstyleTab.css">
+	<link rel="stylesheet" href="altstyle.css">
+	<link rel="stylesheet" href="test.css">
+</head>
+<body id="body">
+	<header data-role="header">
+		<h1 id="testtitle">Color Guessing Game</h1>
+		<p id="blurb"><strong>Created by Emily Cassandra Meeker using JavaScript</strong></p>
+		<p id="rules">See if you can pick the square below whose color matches the RGB code</p>
+	</header>
+	<div id="test">
+		<button id="startGame" onclick="play()">Click to Start!</button>
+	</div>
+	<div id="testcontainer">
+		<div class="square"></div>
+		<div id="empty" onclick="endTest()"></div>
+	</div>
+	<div id="time"></div>
+	<div id="homelink">
+		<a href="index.html" >Back Home</a>
+	</div>
+	<footer data-role="footer">
+		<p>Copyright &copy; 2020 Emily Cassandra Meeker</p>
+		<p>All Rights Reserved</p>
+	</footer>
+
+	<script type="text/javascript" src="colorgame.js"></script>
+</body>
+</html>

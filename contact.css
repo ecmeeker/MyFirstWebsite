@@ -1,0 +1,234 @@
+html {
+        font-family: "PT Sans", Helvetica, Arial, sans-serif;
+        text-decoration: none;
+        background: #aaa;
+        margin: 0;
+        padding: 0;
+        color: #024;
+}
+body{
+        font-family: "PT Sans", Helvetica, Arial, sans-serif;
+        text-decoration: none;
+        top: 0;
+}
+header {
+    top: 0;
+}
+h1 {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+h2 {
+        text-align: center;	
+}
+footer{
+        font-size: .7em;
+        text-align: center;
+        clear: both;
+        position: relative;
+        top: 125px;
+        padding-bottom: 25px;
+}
+a{
+
+}
+a:visited{
+
+}
+p{
+    text-align: center;
+    color: #024;
+}
+.description{
+    font-size: .8em;
+    color: #030787;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#logo{
+        opacity: .95;
+        display: block;
+        position: relative;
+        left: 188px;
+        top: 50px;
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+        float: left;
+        width: 150px;
+        text-align: center;
+}
+#logoLarge{
+        opacity: .9;
+        display: block;
+        clear: both;
+        top: 50%;
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        text-align: center;
+}
+.main{
+    display: block;
+    position: relative;
+}
+form{
+    display: block;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+.formrow{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+label{
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    width: 15%;
+}
+input{
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5%;
+    text-align: left;
+    position: relative;
+}
+input:not([type="checkbox"]){
+    width: 75%;
+}
+#textArea{
+    vertical-align: top;
+    margin-top: 10px;
+    width: 15%;
+}
+textarea{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: .9em;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5%;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    width: 75%;
+    height: 50px;
+}
+.submit{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.submit input{
+    width: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+}
+.success{
+    margin-top: 10px;
+    position: relative;
+    background: #afa;
+    color: #3c3;
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+.alert{
+    margin-top: 10px;
+    position: relative;
+    background: #faa;
+    color: #f33;
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+#homelink{
+        text-align: center;
+        background-color: #69d;
+        border-radius: 10px;
+        font-size: .9em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        line-height: 2;
+        text-decoration: none;
+        color: #024;
+        position: relative;
+}
+#homelink :hover{
+        background-color: #030787;
+        color: #aaaaff;
+        width: 150px;
+        border-radius: 10px;
+        display: block;
+}
+#homelink a{
+    text-decoration: none;
+    color: #024;
+}
+footer{
+        font-size: .7em;
+        text-align: center;
+        clear: both;
+        position: relative;
+        padding-bottom: 25px;
+}
+@media screen and (max-width: 605px){
+    label{
+        display: block;
+        text-align: left;
+        position: relative;
+        width: 40%;
+        float: left;
+    }
+    input{
+        display: inline-block;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 5px;
+        text-align: left;
+        position: relative;
+        width: 85%;
+    }
+    textarea{
+        display: inline-block;
+        width: 85%;
+    }
+    .submit{
+        text-align: center;
+        width: auto;
+        display: block;
+        position: relative;
+    }
+    #homelink{
+        top: auto;
+    }
+}

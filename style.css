@@ -1,0 +1,226 @@
+html {
+	font-family: Verdana, Helvetica;
+	background: url("Media/MyPics/IMG_0168_opaque.png") no-repeat center center fixed;
+	background-size: cover;
+}
+header {
+	position: relative;
+}
+h1 {
+	color: #030787;
+	text-align: center;
+	font-family: Century Gothic, Tahoma;
+}
+h2 {
+	color: #030787;
+	text-align: center;
+	font-family: Century Gothic, Tahoma;
+}
+h3 {
+
+}
+li {
+	list-style-type: none;
+	color: #343687;
+}
+footer{
+	font-size: .75em;
+	clear: both;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #343687;
+	padding: 5px;
+}
+a:visited{
+	color: #4a04aa;
+}
+p{
+	color: #010354;
+	text-align: center;
+}
+#logo{
+	opacity: .7;
+	display: block;
+	clear: both;
+	top: 50%;
+	margin-bottom: 25px;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	text-align: center;
+}
+#logoLarge{
+	opacity: .7;
+	display: block;
+	clear: both;
+	top: 50%;
+	margin-bottom: 25px;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+	text-align: center;
+}
+#git{
+	padding: 10px 10px 0 0;
+}
+#in{
+	width: 25px;
+	padding: 10px 10px 0 0;
+	}
+#twit{
+	width: 25px;
+	padding: 10px 10px 0 0;
+}
+#homelink{
+	text-align: center;
+	background-color: #aaaaff;
+	border-radius: 10px;
+	font-size: .9em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	line-height: 2;
+}
+#homelink :hover{
+	background-color: #030787;
+	color: #aaaaff;
+	width: 150px;
+	border-radius: 10px;
+}
+.nav {
+	//background-color: #0308a1;
+	color: #ccc;
+	position: relative;
+	top: 0;
+	font-size: .7em;
+	margin: 0 0 20px 0;
+	padding: 0;
+	display: inline;
+	//line-height: 2;
+	float: right;
+	//width: 150px;
+	text-align: left;
+	background: #eeeeee;
+	opacity: .7;
+	width: 100%;
+}
+.nav ul{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	float: right;
+	background: #111;
+	color: #eee;
+	//display: block;
+}
+.nav li{
+	display: inline;
+	float: left;
+	padding: 10px 20px 10px 20px;
+	font-size: 1.1em;
+	//position: relative;
+}
+#navHead{
+	color: #115;
+	background: #eee;
+}
+.nav a{
+	//display: block;
+	width: 50px;
+}
+.nav a:hover{
+	color: #aaf;
+	background-color: #010354;
+	border-radius: 10px;
+	border-bottom-color: #aaaaff;
+}
+.main{
+	//background: #010354;
+	margin: 5px 5px 50px 5px;
+	padding: 5px;
+	//position: relative;
+	//display: inline-block;
+	//border-radius: 10px;
+}
+.travelDiary{
+	background: #88aaff;
+	opacity: .8;
+	text-align: center;
+	float: left;
+	//padding: 15px 0;
+	border-radius: 15px;
+	//display: block;
+	margin-top: 5%;
+	margin-left: 25%;
+	width: 150px;
+	//height: 100px;
+}
+.travelDiary a{
+	display: block;
+}
+.travelDiary :hover{
+	background: #030787;
+	color: #aaaaff;
+	//border: solid 1px #ccc;
+	//box-shadow: 5px 5px 0px #999;
+	//width: 150px;
+	border-radius: 15px;
+	//padding: 10px;
+	//display: block;
+}
+.pic{
+	padding: 15px;
+	//text-align: center;
+	float: right;
+	margin-right: 25%;
+	margin-bottom: 50px;
+	border-radius: 5px;
+	border: solid 1px #222;
+	box-shadow: 5px 5px 0px #555;
+	display: block;
+	width: 132px;
+	background: #010354;
+	opacity: .9;
+}
+.connect{
+	clear: both;
+	text-align: center;
+	display: block;
+	font-size: .85em;
+	width: 400px;
+	//background: #0563ad;
+	background: #555;
+	margin-left: auto;
+	margin-right: auto;
+	color: #010354;
+	padding: 10px 0;
+	border-radius: 10px;
+	opacity: .85;
+}
+.connect li{
+	line-height: 10px;
+	padding-bottom: 10px;
+	color: #010354;
+	//padding-top: 20px;
+}
+.connect a{
+	color: #010354;
+}
+.connect a:hover{
+	color: #aaaaff;
+	//background: #aaaaff;
+	border-bottom: thick;
+	border-bottom-color: #aaaaff;
+}
+.connect img:hover{
+	//background: #aaaaff;
+}
+.super{
+	position: relative;
+	font-size: .8em;
+	bottom: .5em;
+}

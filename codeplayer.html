@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Emily Cassandra's Logo</title>
+	<link rel="stylesheet" href="altstylePhone.css">
+	<link rel="stylesheet" href="altstyleTab.css">
+	<link rel="stylesheet" href="altstyle.css">
+        <link rel="stylesheet" href="code.css">
+        <script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="codeplayer.js"></script>
+</head>
+<body>
+	<div class="header" data-role="header">
+		<h1>CodePlayer</h1>
+                <div class="headinglabels">
+                    <ul id="toggles">
+                        <li class="toggle selected">HTML</li>
+                        <li class="toggle selected">CSS</li>
+                        <!--<li class="toggle selected">JavaScript</li>-->
+                        <li class="toggle selected">Result</li>
+                    </ul>
+                <button id="triggerbutton">Run</button>
+                </div>
+	</div>
+    <div class="codecontainers">
+        <div id="HTMLcode">
+            <div class="codelabel">HTML</div>
+            <textarea id="htmlarea"></textarea>
+        </div>
+        <div id="CSScode">
+            <div class="codelabel">CSS</div>
+            <textarea id="cssarea"></textarea>
+        </div>
+        <!--<div id="JScode">
+            <div class="codelabel">JS</div>
+            <textarea id="jsarea"></textarea>
+        </div>-->
+        <div id="Resultcode">
+            <div class="codelabel">Result</div>
+            <iframe id="resultarea"></iframe>
+        </div>
+    </div>
+	<div id="homelink" role="main">
+		<a href="index.html" >Back Home</a>
+	</div>
+	<footer data-role="footer">
+		<p>Copyright &copy; 2020 Emily Cassandra Meeker</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Emily Cassandra's Home Page</title>
+	<link rel="stylesheet" href="altstylePhone.css">
+	<link rel="stylesheet" href="altstyleTab.css">
+	<link rel="stylesheet" href="altstyle.css">
+        <script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="transition.js"></script>
+        <!--<script type="text/javascript" onload="">
+            window.onload = alert(window.innerWidth);
+        </script>-->
+</head>
+<body>
+	<header role="banner">
+		<div class="nav">
+                    <ul id="stdnav">
+                        <li id="navHead"><strong>Emily Cassandra's Portfolio</strong></li>
+                        <li><a href="logo.html" ><strong>My Logo</strong></a></li>
+                        <li><a href="reactiontest.html" ><strong>Reaction Test</strong></a></li>
+                        <li><a href="codeplayer.html" ><strong>Code Player</strong></a></li>
+												<li><a href="todo.html" ><strong>To Do List</strong></a></li>
+						<li><a href="http://www.wanderphilia.com"><strong>Travel Blog</strong></a></li>
+					</ul>
+                    <ul class="minnav">
+                        <li id="minnavHead"><strong>Emily Cassandra's Portfolio</strong>
+                            <ul id="subminnav">
+                                <li><a href="logo.html" ><strong>My Logo</strong></a></li>
+                                <li><a href="reactiontest.html" ><strong>Reaction Test</strong></a></li>
+                                <li><a href="codeplayer.html" ><strong>Code Player</strong></a></li>
+																<li><a href="todo.html" ><strong>To Do List</strong></a></li>
+																<li><a href="http://www.wanderphilia.com"><strong>Travel Blog</strong></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+		</div>
+		<h1><img id="logo" src="Media/Logo/ecmLogoPower.png" alt="Emily Cassandra Meeker" /></h1>
+
+	</header>
+
+	<div class="main" role="main">
+		<!-- <div class="travelDiary">
+			<a href="" >Emily Cassandra's Travel Diary</a>
+		</div> -->
+
+		<div class="pic">
+			<img src="Media/MyPics/WebReady/HeadShotSide15.png" alt="Emily Cassandra Head Shot" />
+		</div>
+
+		<h2><em>Adventures from Around the World</em></h2>
+
+	</div>
+	<!-- Slider courtesy of http://codepen.io/AMKohn/pen/EKJHf -->
+	<div class="navslider">
+
+		<div class="slides">
+
+                    <input type="radio" name="radio-btn" id="img-1" checked />
+		    <div class="slide-container">
+                        <div class="slide">
+                            <img src="Media/MyPics/WebReady/IMG_0168.png" alt="Ait Ben Haddou, Ouarzazate, Morocco"/>
+                        </div>
+			<div class="navSL">
+                            <label for="img-6" class="prev">&#x2039;</label>
+                            <label for="img-2" class="next">&#x203a;</label>
+			</div>
+		    </div>
+
+		    <input type="radio" name="radio-btn" id="img-2" />
+		    <div class="slide-container">
+                        <div class="slide">
+		          <img src="Media/MyPics/WebReady/IMG_0303.png" alt="Cape Point, South Africa"/>
+		        </div>
+                        <div class="navSL">
+                            <label for="img-1" class="prev">&#x2039;</label>
+                            <label for="img-3" class="next">&#x203a;</label>
+                        </div>
+		    </div>
+
+		    <input type="radio" name="radio-btn" id="img-3" />
+		    <div class="slide-container">
+		        <div class="slide">
+		          <img src="Media/MyPics/WebReady/IMG_0470.png" alt="Terrain of Tuscany, Italy"/>
+		        </div>
+			<div class="navSL">
+                            <label for="img-2" class="prev">&#x2039;</label>
+                            <label for="img-4" class="next">&#x203a;</label>
+			</div>
+		    </div>
+
+		    <input type="radio" name="radio-btn" id="img-4" />
+		    <div class="slide-container">
+		        <div class="slide">
+		          <img src="Media/MyPics/WebReady/IMG_0968.png" alt="Hagia Sophia Mosque, Istanbul, Turkey"/>
+		        </div>
+                        <div class="navSL">
+                            <label for="img-3" class="prev">&#x2039;</label>
+                            <label for="img-5" class="next">&#x203a;</label>
+			</div>
+		    </div>
+
+		    <input type="radio" name="radio-btn" id="img-5" />
+                    <div class="slide-container">
+		        <div class="slide">
+		          <img src="Media/MyPics/WebReady/IMG_2199.png" alt="Sunset in Kruger National Park, South Africa"/>
+		        </div>
+			<div class="navSL">
+                            <label for="img-4" class="prev">&#x2039;</label>
+                            <label for="img-6" class="next">&#x203a;</label>
+			</div>
+		    </div>
+
+		    <input type="radio" name="radio-btn" id="img-6" />
+		    <div class="slide-container">
+		        <div class="slide">
+		          <img src="Media/MyPics/WebReady/IMG_2116.png" alt="God's Window, South Africa"/>
+		        </div>
+			<div class="navSL">
+                            <label for="img-5" class="prev">&#x2039;</label>
+                            <label for="img-1" class="next">&#x203a;</label>
+			</div>
+		    </div>
+
+		    <div class="nav-dots">
+		      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+		      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+		      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+		      <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+		      <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+		      <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+
+		    </div>
+		</div>
+	</div>
+	<div class="connect" data-role="section">
+            <h3>Connect with Emily Cassandra:</h3>
+            <div class="connectblock">
+                <ul>
+                    <li>
+                        <a href="http://github.com/ecmeeker" >
+                            <img id="git" src="Media/GitHub-Mark/PNG/GitHub-Mark-32px.png" alt="GitHub Logo" />
+                            <p class="caption">Check Out My Code on GitHub</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://linkedin.com/in/emily-cassandra-meeker-4662a099" >
+                            <img id="in" src="Media/LinkedInLogo/InBug-16px_0.png" alt="LinkedIn Logo" />
+                            <p class="caption">See My LinkedIn<span class="super">&reg;</span> Resume</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://twitter.com/EmiCassandraM" >
+
+                            <img id="twit" src="Media/TwitterLogo/Twitter_logo_blue.png" alt="Twitter Logo" />
+                            <p class="caption">Follow Me on Twitter</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contactform.php" >
+                            <img id="email" src="Media/no_mail_logo.png" alt="Email Logo" />
+                            <p class="caption">Email Me</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+	<footer data-role="footer">
+		<p>Copyright &copy; 2020 Emily Cassandra Meeker</p>
+		<p>All Rights Reserved</p>
+	</footer>
+</body>
+</html>

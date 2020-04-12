@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Emily Cassandra</title>
+	<!--<link rel="stylesheet" href="altstylePhone.css">
+	<link rel="stylesheet" href="altstyleTab.css">
+	<link rel="stylesheet" href="altstyle.css">-->
+        <link rel="stylesheet" href="contact.css">
+        <!--<script type="text/javascript" onload="">
+            window.onload = alert(window.innerWidth);
+        </script>-->
+</head>
+<body>
+	<header data-role="header">
+            <h1><img id="logoLarge" src="Media/Logo/ecmLogoPower.png" alt="Emily Cassandra Meeker" /></h1>
+            <h1>Email Emily Cassandra</h1>
+        </header>
+        <div class="main" data-role="main">
+            <p>I'd love to hear from you! Fill out the form and I'll respond ASAP!!</p>
+            <div class="phpresults">
+                <form method="post" action="contactform.php">
+                    <div class="formrow">
+                        <label for="name">Your Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Your Name" value="<?php echo $_POST['name']; ?>" /><br />
+                    </div>
+                    <div class="formrow">
+                        <label for="email">Your Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Your Email" value="<?php echo $_POST['email']; ?>" /><br />
+                    </div>
+                    <div class="formrow">
+                        <label for="cc">CC Yourself?</label>
+                        <input type="checkbox" name="cc" id="cc" /><br />
+                    </div>
+                    <div class="formrow">
+                        <label for="subject">Email Subject:</label>
+                        <input type="text" name="subject" id="subject" placeholder="Please enter a subject" value="<?php echo $_POST['subject']; ?>" /><br />
+                    </div>
+                    <div class="formrow">
+                        <label for="message" id="textArea">Message:</label>
+                        <textarea name="message" id="message" placeholder="Type message here"><?php echo $_POST['name']; ?></textarea><br />
+                    </div>
+                    <div class="submit">
+                        <input type="submit" name="submit" value="Send" /><br />
+                    </div>
+                </form>
+            </div>
+        </div>
+	<div id="homelink">
+            <a href="index.html" >Back Home</a>
+	</div>
+	<footer data-role="footer">
+        <p>Copyright &copy; 2020 Emily Cassandra Meeker</p>
+        <p>All Rights Reserved</p>
+	</footer>
+</body>
+</html>

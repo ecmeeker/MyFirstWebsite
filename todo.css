@@ -1,0 +1,48 @@
+body {
+  font-family: "Calibri", "Helvetica", sans-serif;
+  background-color: #eee;
+  color: #333;
+  margin: 0;
+}
+
+#container {
+  width: 30%;
+  float: left;
+  margin: 2%;
+}
+
+h1 {
+  text-align: center;
+  padding: 15px;
+  background-color: #28d;
+  color: #eee;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#homelink{
+        text-align: center;
+        background-color: #69d;
+        border-radius: 10px;
+        font-size: .9em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        line-height: 2;
+        text-decoration: none;
+        color: #024;
+        display: block;
+}
+#homelink :hover{
+        background-color: #030787;
+        color: #aaaaff;
+        width: 150px;
+        border-radius: 10px;
+        display: block;
+}
+#homelink a{
+    text-decoration: none;
+    color: #024;
+}
